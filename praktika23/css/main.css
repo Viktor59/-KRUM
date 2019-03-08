@@ -20,6 +20,12 @@ margin-right: auto;
 line-height: 51px;
     
 }
+.containere {
+  width: 1700px; 
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 5px;
+}
 .row:after {
 clear: both;
 content: "";
@@ -216,7 +222,7 @@ margin:10px 10px 300px 20px;
     
 } 
 .tajgan-container_img {
-   
+   padding-left: 30px;
      display: flex;
      flex-basis: auto;
     
@@ -228,14 +234,34 @@ font-size: 25px;
 padding-left: 30px;
 padding-right: 20px;
 font-family: 'ZCOOL KuaiLe', cursive;
+    text-align: center;
    
 } 
 .tajgan-container_texte p {
     font-size: 28px;
     padding: 0px 10px 10px 20px;
     color: #8B4513;
+    text-align: center;
+    font-family: 'ZCOOL KuaiLe', cursive;
     
 }
+.tajgan-container_imge_row {
+    width: 500px;
+margin-left: auto;
+    margin-right: auto;
+    line-height: 50px;
+    
+   
+}
+.tajgan-container_rowe {
+    width: auto;
+    margin-left: 25px;
+    float: left;
+}
+.tajgan-container_rowe:last-child {
+    margin-right: 0;
+}
+
 
    
 
