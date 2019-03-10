@@ -21,10 +21,10 @@ line-height: 51px;
     
 }
 .containere {
-  width: 1700px; 
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 5px;
+width: 1700px; 
+margin-left: auto;
+margin-right: auto;
+line-height: 5px;
 }
 .row:after {
 clear: both;
@@ -203,9 +203,9 @@ margin:10px 10px 300px 20px;
 /*-------
    ---     tajgan------*/
 .tajgan {
-    background-color: #FFFAF0;
-    padding-bottom: 700px;
-    padding-top: 1px;
+background-color: #FFFAF0;
+padding-bottom: 700px;
+padding-top: 1px;
     
 }
 .tajgan-container_zagolovok {
@@ -245,7 +245,7 @@ font-family: 'ZCOOL KuaiLe', cursive;
     font-family: 'ZCOOL KuaiLe', cursive;
     
 }
-.tajgan-container_imge_row {
+.tajgan-container_row {
     width: 500px;
 margin-left: auto;
     margin-right: auto;
@@ -254,18 +254,52 @@ margin-left: auto;
    
 }
 .tajgan-container_rowe {
-    width: auto;
-    margin-left: 25px;
+   margin-left: 25px;
     float: left;
 }
 .tajgan-container_rowe:last-child {
     margin-right: 0;
 }
-
-
+.tajgan-container_textes p {
+    color: #006400;
+    font-size: 25px;
+    padding: 230px 10px 10px 25px;
+    text-align: center;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    
+    }
+.tajgan-container_rowes {
+    margin-left: 25px;
+    float: left;
+}
+.tajgan-container_rowes:last-child {
+margin-right: 0;
    
+}
+.tajgan-containers {
+    padding: 10px 10px 490px 0px;
+}
 
-
+.tajgan-container-button-back {
+    font-size: 24px;
+font-weight: 700;
+    text-decoration: none;
+color: #8B4513;
+    border-width: 2px;
+    border-style: solid;
+border-radius: 50px;
+padding: 2px 7px 0px 2px;
+    margin-left: 650px;
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: #FFFAF0;
+border-style: solid;
+    
+}
+.tajgan-container-button-back:hover {
+color: #FFFAF0; 
+background-color: #8B4513;
+}
 
 
 
