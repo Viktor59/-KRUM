@@ -480,5 +480,31 @@ margin-left: 30px;
 .prilogenie-container-row {
 margin: 0;  
 }
+.tajgan  {
+  margin: 0;
+    
+    }
+    .tajgan-container_zagolovok {
+        font-size: 30px;
+        margin: 0;
+       padding-top: 30px;
+       
+    } 
+    .tajgan-container_img {
+        padding: 0px 10px 10px 10px
+        
+    }
+    .tajgan-container_text p {
+        width: 100%;
+        margin: 0;
+        font-size: 20px;
+        line-height: 20px;
+       text-align: left;
+       display: flex;
+           
+           
+        
+    }
+    
     
 }
