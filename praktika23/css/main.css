@@ -226,9 +226,11 @@ padding-top: 1px;
     
 } 
 .tajgan-container_img {
+    margin: 0;
    padding-left: 30px;
+    padding-right: 0px;
      display: flex;
-/*--     flex-basis: auto;--*/
+
     
    
 }
@@ -244,25 +246,22 @@ font-family: 'ZCOOL KuaiLe', cursive;
 } 
 .tajgan-container_texte p {
     font-size: 28px;
-    padding: 0px 10px 10px 20px;
+   padding-left: 30px;
+    padding-right: 20px;
     color: #8B4513;
     text-align: center;
     font-family: 'ZCOOL KuaiLe', cursive;
     
 }
-.tajgan-container_row {
-    width: 500px;
-margin-left: auto;
-    margin-right: auto;
-    line-height: 50px;
-    
+.tajgan-containerse_rowe {
+ margin: 0px;  
+ padding: 10px 10px 10px 20px;
+float: left;
    
 }
-.tajgan-container_rowe {
-   margin-left: 25px;
-    float: left;
-}
-.tajgan-container_rowe:last-child {
+
+
+.tajgan-containerse_rowe:last-child {
     margin-right: 0;
 }
 .tajgan-container_textes p {
@@ -403,7 +402,7 @@ width: 100%;
 .text p {
 width: 100% ;
 margin: 0;
-font-size: 20px;
+font-size: 25px;
 line-height: 20px;
 text-align: center;
         
@@ -427,7 +426,7 @@ padding-right: 15px;
     
 .header__title {
         
-font-size: 28px;
+font-size: 30px;
 line-height: 48px;
 margin-bottom: 15px;
 }
@@ -446,18 +445,19 @@ font-size: 20px;
 }
 
 .footer {
-    width: 100%;
+width: 100%;
 margin: 0;
 padding: 0px 0px 0px 0px;
  }
-    .container {
-        margin: 0;
-        padding-left: 0px
+  .container {
+width: 100%;
+margin: 0;
+padding-left: 0px;
     }  
-    .row {
-        margin: 0;
-      padding: 0px 1000px 0px 0px;
-        text-align: center;    
+ .row {
+margin: 0;
+padding: 0px 10px 0px 0px;
+text-align: center;    
     }
     
 .footer p {
@@ -498,40 +498,66 @@ margin-left: 30px;
 .prilogenie-container-row {
 margin: 0;  
 }
+    /*----- media tajgan----*/
 .tajgan  {
   width: 100%;
     
     }
-    .tajgan-container  {
-        flex-direction: column;
+   .tajgan-container  {
+        
+    flex-direction:column;
     } 
     
     .tajgan-container_zagolovok p {
         margin: 0;
-        font-size: 30px;
+        font-size: 45px;
       padding-top: 10px;
        
     } 
-    .tajgan-container_img {
+      .tajgan-container_img {
         margin: 0;
-        padding: 0px 10px 10px 0px;
-       
-        
-    }
-    .tajgan-container_img p {
-        margin: 0;
-       padding-right: 100px;
-        
+        padding: 0px 10px 10px 20px;
     }
     .tajgan-container_text p {
-        width: 100%;
         margin: 0;
-        font-size: 20px;
-        line-height: 20px;
-      
-           
-        
+        font-size: 23px;
+        line-height: 25px;
     }
+    .tajgan-container_texte p {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .tajgan-containerse_rowe {
+        margin: 0;
+        padding-left: 50px;
+    }
+    .tajgan-container_textes p {
+        width: 100%;
+        font-size: 22px;
+         line-height: 25px;
+        margin: 0;
+        padding: 10px 30px 30px 10px;
+        text-align: center;
+    }
+    .tajgan-container_rowes{
+        width: 100%;
+        text-align: center;
+            
+    }
+    .tajgan-container-button-back {
+        width: 100%;
+       margin: 0;
+        font-size: 18px;
+        margin-top: 30px;
+    
+       
+       
+    }
+       
+      
+      
     
     
-}
+  
+    
+     
