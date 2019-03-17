@@ -200,8 +200,7 @@ margin:10px 10px 300px 20px;
     
 }
 
-/*-------
-   ---     tajgan------*/
+/*-------tajgan------*/
 .tajgan {
 background-color: #FFFAF0;
 padding-bottom: 10px;
@@ -209,120 +208,105 @@ padding-top: 1px;
     
 }
 .tajgan-container_zagolovok {
-    padding-bottom: 10px;
-    padding-top: 10px;
-    font-size: 70px;
-    height: 230px;
-    font-family: 'ZCOOL KuaiLe', cursive;
-    text-decoration: none;
-    color: #8B4513;
-    text-align: center;
+padding-bottom: 10px;
+padding-top: 10px;
+font-size: 70px;
+height: 230px;
+font-family: 'ZCOOL KuaiLe', cursive;
+text-decoration: none;
+color: #8B4513;
+text-align: center;
       
 }
 .tajgan-container  {
-    margin: 0;
-    display: flex;
+margin: 0;
+display: flex;
     
     
 } 
 .tajgan-container_img {
-    margin: 0;
-   padding-left: 30px;
-    padding-right: 0px;
-     display: flex;
+margin: 0;
+padding-left: 30px;
+padding-right: 0px;
+display: flex;
 
     
    
 }
 .tajgan-container_text p {
-
 color: #006400;
 font-size: 25px;
 padding-left: 30px;
 padding-right: 20px;
 font-family: 'ZCOOL KuaiLe', cursive;
-    text-align: center;
+text-align: center;
    
 } 
 .tajgan-container_texte p {
-    font-size: 28px;
-   padding-left: 30px;
-    padding-right: 20px;
-    color: #8B4513;
-    text-align: center;
-    font-family: 'ZCOOL KuaiLe', cursive;
+font-size: 28px;
+padding-left: 30px;
+padding-right: 20px;
+color: #8B4513;
+text-align: center;
+font-family: 'ZCOOL KuaiLe', cursive;
     
 }
 .tajgan-containerse_rowe {
- margin: 0px;  
- padding: 10px 10px 10px 20px;
+margin: 0px;  
+padding: 10px 10px 10px 20px;
 float: left;
-   
 }
-
 
 .tajgan-containerse_rowe:last-child {
-    margin-right: 0;
+margin-right: 0;
 }
-.tajgan-container_textes p {
-    color: #006400;
-    font-size: 25px;
-    padding: 230px 10px 10px 25px;
-    text-align: center;
-    font-family: 'ZCOOL KuaiLe', cursive;
-    
-    }
+.tajgan-container_texter p {
+color: #006400;
+font-size: 25px;
+padding: 20px 10px 10px 35px;
+text-align: center;
+font-family: 'ZCOOL KuaiLe', cursive;
+}
 .tajgan-container_rowes {
-    margin-left: 25px;
-    float: left;
+margin-left: 25px;
+float: left;
 }
 .tajgan-container_rowes:last-child {
 margin-right: 0;
-   
 }
 .tajgan-containers {
-    padding: 10px 10px 490px 0px;
+padding: 10px 10px 490px 0px;
 }
 
 .tajgan-container-button-back {
-    font-size: 24px;
+font-size: 24px;
 font-weight: 700;
-    text-decoration: none;
+text-decoration: none;
 color: #8B4513;
-    border-width: 2px;
-    border-style: solid;
+border-width: 2px;
+border-style: solid;
 border-radius: 50px;
 padding: 2px 7px 0px 2px;
-    margin-left: 650px;
-    text-transform: uppercase;
-    display: inline-block;
-    background-color: #FFFAF0;
+margin-left: 650px;
+text-transform: uppercase;
+display: inline-block;
+background-color: #FFFAF0;
 border-style: solid;
-    
 }
 .tajgan-container-button-back:hover {
 color: #FFFAF0; 
 background-color: #8B4513;
 }
-
-
-
-    
-/*---------------
-footer
-------------*/
+/*---------------footer------------*/
 
 .footer {
 background-color: #006400;
 color: #fff;
-    
 margin-top: 0px;
-    
 padding-top: 50px;
 padding-bottom: 20px;
     
 }
-
 .footer p {
 font-size: 23px;
 color:#00BFFF ;
@@ -331,7 +315,6 @@ margin-bottom: 10px;
 
 }
 p.footer__name {
-    
 font-size: 29px;
 margin-bottom: 30px;
 line-height: normal;
@@ -341,20 +324,16 @@ font-family:'Merriweather', serif;
 p.footer__social {
 color: #00BFFF;
 font-size: 23px;
-    
-    
 }
 p.footer__social-icons {
 color: #fff;
 font-size: 30px;
-    
 }
 p.footer__social-icons a {
 color: #fff;
 text-decoration: none;
 margin-right: 30px;
 transition: 0.2s ease-out;
-    
 }
 p.footer__social-icons a:last-child{
 margin-left: 0px;
@@ -367,7 +346,7 @@ font-size: 26px;
 font-weight: 700;
 text-decoration: none;
 color: #fff;
-text-transform: uppercase;
+
 letter-spacing: 1.6;
     
 display: inline-block;
@@ -396,7 +375,6 @@ media
 @media (max-width: 1350px) {
     
 .container, {
-        
 width: 100%;
 }
 .text p {
@@ -436,7 +414,6 @@ width: 100%;
 margin-bottom: 0px;
 padding-left: 5px;
 padding-right: 5px;
-    
 text-align: center;
         
 }
@@ -449,19 +426,19 @@ width: 100%;
 margin: 0;
 padding: 0px 0px 0px 0px;
  }
-  .container {
+.container {
 width: 100%;
 margin: 0;
 padding-left: 0px;
-    }  
- .row {
+}  
+.row {
 margin: 0;
 padding: 0px 10px 0px 0px;
 text-align: center;    
-    }
+}
     
 .footer p {
-    margin: 0;
+margin: 0;
     
         
 font-size: 20px;
@@ -500,59 +477,50 @@ margin: 0;
 }
     /*----- media tajgan----*/
 .tajgan  {
-  width: 100%;
-    
-    }
-   .tajgan-container  {
-        
-    flex-direction:column;
-    } 
-    
-    .tajgan-container_zagolovok p {
-        margin: 0;
-        font-size: 45px;
-      padding-top: 10px;
-       
-    } 
-      .tajgan-container_img {
-        margin: 0;
-        padding: 0px 10px 10px 20px;
-    }
-    .tajgan-container_text p {
-        margin: 0;
-        font-size: 23px;
-        line-height: 25px;
-    }
-    .tajgan-container_texte p {
-        font-size: 22px;
-        line-height: 25px;
-    }
-    .tajgan-containerse_rowe {
-        margin: 0;
-        padding-left: 50px;
-    }
-    .tajgan-container_textes p {
-        width: 100%;
-        font-size: 22px;
-         line-height: 25px;
-        margin: 0;
-        padding: 10px 30px 30px 10px;
-        text-align: center;
-    }
-    .tajgan-container_rowes{
-        width: 100%;
-        text-align: center;
-            
-    }
-    .tajgan-container-button-back {
-        width: 100%;
-       margin: 0;
-        font-size: 18px;
-        margin-top: 30px;
-    
-       
-       
-    }
+width: 100%;
+}
+.tajgan-container  {
+flex-direction:column;
+} 
+.tajgan-container_zagolovok p {
+margin: 0;
+font-size: 45px;
+padding-top: 10px;
+} 
+.tajgan-container_img {
+margin: 0;
+padding: 0px 10px 10px 20px;
+}
+.tajgan-container_text p {
+margin: 0;
+font-size: 23px;
+line-height: 25px;
+}
+.tajgan-container_texte p {
+font-size: 22px;
+line-height: 25px;
+}
+.tajgan-containerse_rowe {
+margin: 0;
+padding-left: 50px;
+}
+.tajgan-container_texter p {
+width: 100%;
+font-size: 22px;
+line-height: 25px;
+margin: 0;
+text-align: center;
+}
+.tajgan-container_rowes{
+padding: 3px 7px 7px 7px;
+}
+.tajgan-container-button-back  {
+font-size: 18px;  
+margin: auto;
+margin-top: 30px;
+margin-left: 60px;
+padding: 3px 3px 3px 3px ;
+}
        
       
       
