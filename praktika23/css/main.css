@@ -150,7 +150,7 @@ padding-top: 10px;
 padding-bottom: 250px;
     
 }
-.prilogenie-container{
+.prilogenie-container {
 margin: 0;
 }
 .prilogenie-container-text p {
@@ -335,7 +335,7 @@ text-decoration: none;
 margin-right: 30px;
 transition: 0.2s ease-out;
 }
-p.footer__social-icons a:last-child{
+p.footer__social-icons a:last-child {
 margin-left: 0px;
 }
 p.footer__social-icons a:hover {
@@ -510,12 +510,12 @@ font-size: 22px;
 line-height: 25px;
 margin: 0;
 text-align: center;
-    padding-left: 30px;
-    padding-right: 30px;
+padding-left: 30px;
+padding-right: 30px;
 }
 .tajgan-container_rowes{
-    margin: 0;
-    padding-left: 80px;
+margin: 0;
+padding-left: 80px;
 
 }
 .tajgan-container-button-back  {
