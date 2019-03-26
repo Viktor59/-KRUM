@@ -502,7 +502,7 @@ line-height: 25px;
 }
 .tajgan-containerse_rowe {
 margin: 0;
-padding-left: 50px;
+padding-left: 80px;
 }
 .tajgan-container_texter p {
 width: 100%;
@@ -512,7 +512,9 @@ margin: 0;
 text-align: center;
 }
 .tajgan-container_rowes{
-padding: 3px 7px 7px 7px;
+    margin: 0;
+    padding-left: 80px;
+
 }
 .tajgan-container-button-back  {
 font-size: 18px;  
