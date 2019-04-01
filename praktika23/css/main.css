@@ -316,36 +316,33 @@ background-color: #8B4513;
 }
 
 .feodosij-container_zagolovok p {
-    padding-bottom: 10px;
-padding-top: 10px;
+padding-bottom: 10px;
+    padding-top: 10px;
 font-size: 70px;
     text-align: center;
     font-family: 'Abril Fatface', cursive;
 }
 feodosij-container_one {
     margin: 0;
-display: flex;
-    text-align: left;
+
+    text-align: right;
     
 }
-.liftimg {
-    float: left;
-    margin: 7px 7px 7px 7px;
-}
-.rightimg {
-    float: right;
-    margin: 7px 7px 7px 7px;
-}
+
 .feodosij-container_text p {
     margin-top: 0px;
     margin-bottom: 2px;
-    padding: 0px 30px 10px 30px;
+    padding: 0px 20px 10px 30px;
   display: flex;
     font-size: 25px;
-    text-align: center;
-    font-family: 'Abril Fatface', cursive;
+   font-family: 'Abril Fatface', cursive;
     
 }
+.feodosij-container_text p1 {
+    font-size: 15px;
+    font-family:'PT Sans Caption',sans-serif;
+}
+
 .feodosij-container_img {
     
     
