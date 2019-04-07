@@ -305,15 +305,23 @@ background-color: #8B4513;
 
 .feodosij {
   background: #B0E0E6;
-  padding-bottom: 1000px;
-    padding-top: 1px
+   background-repeat: no-repeat; 
+   padding-top: 1px;
+  /*  background-position: center;
+   /* background-size: cover;
+   /* align-items: center;*/
+  
+    height: 108vh;
+    color: #191970; 
+    
+ 
       
 }
 
 .feodosij-container {
     margin: 0;
-    
-}
+     
+   }
 
 .feodosij-container_zagolovok p {
 padding-bottom: 10px;
@@ -324,33 +332,63 @@ font-size: 70px;
 }
 feodosij-container_one {
     margin: 0;
-
-    text-align: right;
-    
+   
+ 
 }
 
 .feodosij-container_text p {
-    margin-top: 0px;
+ /*   margin-top: 0px;
     margin-bottom: 2px;
-    padding: 0px 20px 10px 30px;
-  display: flex;
+    padding: 0px 20px 10px 30px;*/
+  padding-left: 40px;
+   text-align: left;
     font-size: 25px;
    font-family: 'Abril Fatface', cursive;
     
 }
-.feodosij-container_text p1 {
-    font-size: 15px;
-    font-family:'PT Sans Caption',sans-serif;
-}
+
 
 .feodosij-container_img {
+}
     
+    .feodosij-container-rigtimg {
+        float: right;
+        padding: 10px 40px 0px 50px;
+    }
+.feodosij-container_two {
+    background: #B0E0E6;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 1090px;
+    margin-top: 10px
     
+}
+.feodosij-container_two-row {
+    float: left;
+    background-repeat: no-repeat; 
+    padding: 10px 10px 10px 10px;
 }
 
-  
-    
+.feodosij-container-button-back {
+    font-size: 24px;
+font-weight: 700;
+text-decoration: none;
+color: #8B4513;
+border-width: 2px;
+border-style: solid;
+border-radius: 50px;
+padding: 2px 7px 0px 2px;
+margin-left: 650px;
+text-transform: uppercase;
+display: inline-block;
+background-color: #FFFAF0;
+border-style: solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
+    
+
   
 
 
