@@ -355,18 +355,31 @@ feodosij-container_one {
         float: right;
         padding: 10px 40px 0px 50px;
     }
+.feodosij-container_titel {
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
 .feodosij-container_two {
     background: #B0E0E6;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 1090px;
-    margin-top: 10px
-    
+    float: left;
 }
 .feodosij-container_two-row {
     float: left;
     background-repeat: no-repeat; 
-    padding: 10px 10px 10px 10px;
+   margin-left: 10px;
+    margin-right: 10px;
+    
+    
+}
+.feodosij-container_two-row:last-child {
+    margin: 0;
+}
+
+.feodosij-container_two-text {
+    font-size: 20px;
 }
 
 .feodosij-container-button-back {
